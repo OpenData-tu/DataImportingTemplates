@@ -1,4 +1,5 @@
-package de.tu_berlin.ise.open_data.application.flat.service;
+package de.tu_berlin.ise.open_data.library.service;
+
 
 import de.tu_berlin.ise.open_data.library.model.Schema;
 import org.json.JSONException;
@@ -9,9 +10,8 @@ import org.json.JSONException;
  */
 public interface JsonSchemaCreator {
 
-
      /**
-      * Get an objects which is extended from {@link Schema} class
+      * Get an objects which is extended from {@link de.tu_berlin.ise.open_data.library.model.Schema} class
       * and converts it to json
       * @param schema
       * @return String

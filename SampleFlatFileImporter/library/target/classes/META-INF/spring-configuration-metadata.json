@@ -31,9 +31,9 @@
     },
     {
       "sourceType": "de.tu_berlin.ise.open_data.library.config.KafkaProperties",
-      "defaultValue": "flat",
+      "defaultValue": "topic",
       "name": "kafka.topic",
-      "description": "defaults to flat",
+      "description": "defaults to topic",
       "type": "java.lang.String"
     },
     {

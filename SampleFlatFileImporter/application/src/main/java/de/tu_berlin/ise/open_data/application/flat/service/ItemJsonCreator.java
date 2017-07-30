@@ -3,6 +3,7 @@ package de.tu_berlin.ise.open_data.application.flat.service;
 import de.tu_berlin.ise.open_data.application.flat.model.Extra;
 import de.tu_berlin.ise.open_data.application.flat.model.Item;
 import de.tu_berlin.ise.open_data.library.model.Schema;
+import de.tu_berlin.ise.open_data.library.service.JsonSchemaCreator;
 import org.json.JSONException;
 import org.springframework.stereotype.Service;
 
@@ -10,13 +11,10 @@ import de.tu_berlin.ise.open_data.library.service.JsonStringBuilder;
 
 /**
  * Created by ahmadjawid on 6/9/17.
- * Implementation of {@link ItemJsonCreator}
+ * Implementation of {@link JsonSchemaCreator}
  */
 @Service
 public class ItemJsonCreator implements JsonSchemaCreator {
-
-
-
 
     /**
      * Get an objects which is extended from {@link Schema} class

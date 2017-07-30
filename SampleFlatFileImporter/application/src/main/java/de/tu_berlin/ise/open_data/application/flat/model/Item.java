@@ -4,8 +4,8 @@ import de.tu_berlin.ise.open_data.library.model.Schema;
 
 /**
  * Created by ahmadjawid on 5/21/17.
- * All necessary fields for parsing data from source is defined here.
- * Final fields are not using when parsing from file.
+ * All necessary fields for parsing data from source are defined here.
+ * Final fields are not used when parsing from file.
  */
 
 public class Item extends Schema {
