@@ -1,6 +1,6 @@
-package de.tu_berlin.ise.open_data.application.waterlevel.batch;
+package de.tu_berlin.ise.open_data.application.sample.batch;
 
-import de.tu_berlin.ise.open_data.application.waterlevel.model.Item;
+import de.tu_berlin.ise.open_data.application.sample.model.Item;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemReader;
@@ -32,7 +32,7 @@ class RestItemReader implements ItemReader<Item> {
     }
 
     /**
-     * Read the items one by one and return them as a list.
+     * Read the items one by one and return them.
      * Stop when null is returned
      * @return Item
      * */

@@ -1,6 +1,6 @@
-package de.tu_berlin.ise.open_data.application.waterlevel.batch;
+package de.tu_berlin.ise.open_data.application.sample.batch;
 
-import de.tu_berlin.ise.open_data.application.waterlevel.model.Item;
+import de.tu_berlin.ise.open_data.application.sample.model.Item;
 import de.tu_berlin.ise.open_data.library.service.JsonSchemaCreator;
 
 import org.springframework.batch.item.ItemProcessor;

@@ -1,8 +1,6 @@
-package de.tu_berlin.ise.open_data.application.waterlevel.model;
+package de.tu_berlin.ise.open_data.application.sample.model;
 
 import de.tu_berlin.ise.open_data.library.model.Schema;
-
-import java.util.List;
 
 /**
  * Created by ahmadjawid on 7/2/17.

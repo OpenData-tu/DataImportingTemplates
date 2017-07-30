@@ -1,4 +1,4 @@
-package de.tu_berlin.ise.open_data.application.waterlevel.config;
+package de.tu_berlin.ise.open_data.application.sample.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

@@ -1,8 +1,8 @@
-package de.tu_berlin.ise.open_data.application.waterlevel.service;
+package de.tu_berlin.ise.open_data.application.sample.service;
 
 import de.tu_berlin.ise.open_data.library.model.Schema;
 import de.tu_berlin.ise.open_data.library.service.JsonStringBuilder;
-import de.tu_berlin.ise.open_data.application.waterlevel.model.Item;
+import de.tu_berlin.ise.open_data.application.sample.model.Item;
 import org.json.JSONException;
 import org.springframework.stereotype.Service;
 

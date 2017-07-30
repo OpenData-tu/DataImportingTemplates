@@ -1,4 +1,4 @@
-package de.tu_berlin.ise.open_data.application.waterlevel;
+package de.tu_berlin.ise.open_data.application.sample;
 
 import de.tu_berlin.ise.open_data.library.config.ServiceConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;

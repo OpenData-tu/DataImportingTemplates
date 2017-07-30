@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>de.tu_berlin.ise.open_data.waterlevel</groupId>
+	<groupId>de.tu_berlin.ise.open_data.sample</groupId>
 	<artifactId>application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>application</name>
-	<description>Sample Rest Importer Application</description>
+	<description>Sample Excel Importer Application</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -40,6 +40,7 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
@@ -47,9 +48,20 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-web</artifactId>
-			<version>4.3.9.RELEASE</version>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.11</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.11</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.batch</groupId>
+			<artifactId>spring-batch-excel</artifactId>
+			<version>0.5.0-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -57,7 +69,6 @@
 			<artifactId>library</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
 
 	</dependencies>
 
