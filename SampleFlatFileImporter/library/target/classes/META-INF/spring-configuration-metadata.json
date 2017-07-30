@@ -1,0 +1,47 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "de.tu_berlin.ise.open_data.library.config.KafkaProperties",
+      "name": "kafka",
+      "type": "de.tu_berlin.ise.open_data.library.config.KafkaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "de.tu_berlin.ise.open_data.library.config.KafkaProperties",
+      "defaultValue": "all",
+      "name": "kafka.acks",
+      "description": "Number of replicas required to acknowledge the writing of data to the queue before proceeding.\n Defaults to all",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "de.tu_berlin.ise.open_data.library.config.KafkaProperties",
+      "defaultValue": "localhost:9092",
+      "name": "kafka.bootstrap-servers",
+      "description": "defaults to localhost:9092",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "de.tu_berlin.ise.open_data.library.config.KafkaProperties",
+      "defaultValue": "org.apache.kafka.common.serialization.StringSerializer",
+      "name": "kafka.key-serializer",
+      "description": "defaults to org.apache.kafka.common.serialization.StringSerializer",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "de.tu_berlin.ise.open_data.library.config.KafkaProperties",
+      "defaultValue": "flat",
+      "name": "kafka.topic",
+      "description": "defaults to flat",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "de.tu_berlin.ise.open_data.library.config.KafkaProperties",
+      "defaultValue": "org.apache.kafka.common.serialization.StringSerializer",
+      "name": "kafka.value-serializer",
+      "description": "defaults to org.apache.kafka.common.serialization.StringSerializer",
+      "type": "java.lang.String"
+    }
+  ]
+}
