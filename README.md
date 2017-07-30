@@ -4,12 +4,14 @@
 
 ## Supported Data Formats
 
- Currently there are X templates which support the following data formats:
+ Currently there are three templates which support the following data formats:
+ 
     - REST Interface
     - XLS, XLXS
     - Delimiter-separated value (DSV)
         - CSV
         - TSV
+        
 ## How to Run
 
  - Each template is runnable, inorder to import data with specific format. 
